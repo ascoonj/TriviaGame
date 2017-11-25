@@ -1,0 +1,67 @@
+
+body {
+    background: url("../images/wallpaper.jpg") no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.mainContent {
+    /* font-family: 'Ubuntu Condensed', sans-serif; */
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: rgb(194, 159, 159);
+    color: silver;
+    height: 540px;
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 61px;
+    left: 380px;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.mainHeader {
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 40px;
+    padding-top: 0px;
+    margin-top: 5px;
+    color: rgb(34, 92, 116);
+    margin-bottom: 20px;
+    border-bottom:1px solid #7b8b2f;
+}
+
+.eachQues {
+    color: rgba(226, 217, 217, 0.87);
+    /* font-weight: bold; */
+    font-size: 27px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    line-height: 85%;
+}
+
+.ansOption {
+    width: 80%;
+    text-align: center;
+    color: rgb(87, 99, 110);
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    border: 2px solid;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:  rgb(116, 159, 177);
+}
+
+button:hover {
+    color: white;
+    background-color: rgba(17, 31, 151, 0.404);
+  }
+
+
