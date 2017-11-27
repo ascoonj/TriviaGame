@@ -1,8 +1,6 @@
-
 body {
     background: url("../images/wallpaper.jpg") no-repeat center center fixed;
     background-size: cover;
-    
 }
 
 .mainContent {
@@ -24,17 +22,20 @@ body {
     text-align: center;
     /* font-weight: bold; */
     font-size: 40px;
-    padding-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     margin-top: 5px;
     color: rgb(34, 92, 116);
     margin-bottom: 20px;
-    border-bottom:1px solid #7b8b2f;
+    border-bottom: 2px solid #cee0e6;
+    display: none;
 }
 
 .eachQues {
     color: rgba(226, 217, 217, 0.87);
     /* font-weight: bold; */
     font-size: 27px;
+    font-weight: bold;
     padding-left: 10px;
     margin-bottom: 20px;
     margin-left: 10%;
@@ -56,7 +57,7 @@ body {
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color:  rgb(116, 159, 177);
+    background-color: rgb(116, 159, 177);
 }
 
 button:hover {
@@ -71,16 +72,45 @@ button:hover {
     font-weight: bold;
     font-style: italic;
     color: rgb(197, 67, 91);
-    
 }
 
 h2 {
     margin-top: 30px;
     margin-bottom: 40px;
-    color: rgb(30, 74, 104);
+    color: rgb(9, 106, 119);
+    text-align: center;
+    font-weight: bold;
 }
 
 #timerArea {
     text-align: center;
     padding: 20px;
+}
+
+#restartBtn,
+#startBtn {
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    margin-left: 35%;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(9, 106, 119);
+}
+
+#restartBtn {
+    display: none;
+}
+
+h3 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 30px 30px 40px 30px;
 }

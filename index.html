@@ -14,23 +14,39 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
+
 </head>
 
 <body>
     <!-- questions, answers and game results go here-->
-    <div class = "mainContent">
-        <h2 class = "mainHeader">Jeopardy Style Trivia Game </h2>
-        <div id = "gameArea"></div>
-        <div id = "timerArea"></div>
+    <div class="mainContent">
+
+        <h2 class="mainHeader">Jeopardy Style Trivia Game </h2>
+
+        <div id="gameArea">
+            <h2>Welcome to the Jeopardy Style Triva Game</h2>
+            <h3>Each clue is in the form of an answer, and the response options are in the form of questions. </h3>
+            <h3>You will have 30 seconds to pick a response.</h3>
+            <h3>Good Luck!</h3>
+            <button id="startBtn" class="hideOnStart">Play Now</button>
+        </div>
+
+        <div id="timerArea"></div>
+
+        <button id="restartBtn" class="hideOnStart">Play Again</button>
+        
     </div>
+
+    <audio id="introAudio">
+        <source src="assets/sounds/Jeopardy-intro.mp3" type="audio/mp3">
+    </audio>
 
     <audio id="quesAudio">
         <source src="assets/sounds/Jeopardy-theme-song.mp3" type="audio/mp3">
     </audio>
-   
-<!-- My JS File -->
-<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+    <!-- My JS File -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 
 </html>
